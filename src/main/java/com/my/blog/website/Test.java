@@ -6,8 +6,8 @@
 //
 //    public static void main(String[] args) throws Exception {
 //        // 密码明文
-//        String[] passwords = { "yldu" };
-//        String[] users = { "yldu" };
+//        String[] passwords = { "sssss" };
+//        String[] users = { "ssssss" };
 //
 //        // 用私钥加密后的密文
 //        for (int i = 0; i < passwords.length; i++) {
