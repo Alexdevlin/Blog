@@ -50,7 +50,7 @@ public class IndexController extends BaseController {
      * 页面跳转
      * @return
      */
-    @GetMapping(value = {"","/index"})
+    @GetMapping(value = {"","/admin/index"})
     public String index(HttpServletRequest request){
         LOGGER.info("Enter admin index method");
         List<CommentVo> comments = siteService.recentComments(5);
