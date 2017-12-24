@@ -64,7 +64,7 @@ public class IndexController extends BaseController {
         request.setAttribute("statistics", statistics);
         request.setAttribute("logs", logs);
         LOGGER.info("Exit admin index method");
-        return "admin/admin/index";
+        return "admin/index";
     }
 
     /**
